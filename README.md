@@ -21,12 +21,12 @@ For example the script `mled-cputemp` will make it respond to your CPU's tempera
 
 ### Install permanently: ###
 
-    $ sudo install -m root -g root -m 755 ledcontroller /usr/bin/ledcontroller
+    $ sudo make install
 
 ### Uninstall: ###
 
-    $ sudo rm /usr/bin/ledcontroller
-    
+    $ sudo make uninstall
+
 ### Have fun: ###
 
 Take a look inside the _scripts_ directory.
