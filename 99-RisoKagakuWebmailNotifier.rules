@@ -1,0 +1,7 @@
+# Riso Kagaku Webmail Notifier
+# This file should be installed to /etc/udev/rules.d so that you can access the hardware without being root
+#
+# type this at the command prompt: sudo cp 99-RisoKagakuWebmailNotifier.rules /etc/udev/rules.d
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="1294", ATTR{idProduct}=="1320", MODE="0666"
+
